@@ -1,0 +1,109 @@
+Script started on Fri 08 Nov 2019 05:19:32 PM PST
+[?1034hbash-4.2$ g++ dgraph.cpp llist.cpp slist.cpp hw6client.cpp
+bash-4.2$ ./a.out
+Enter a file name: table.txt
+V Out      Adj
+---------------------
+A  2     [ B F ]
+B  2     [ C G ]
+C  1     [ H ]
+D  0     [ Empty ]
+E  0     [ Empty ]
+F  2     [ I E ]
+G  0     [ Empty ]
+H  2     [ G I ]
+I  3     [ A G E ]
+
+Enter a Vertex: A
+
+The degree is: 2
+Adjacents are: [ B F ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: B
+
+The degree is: 2
+Adjacents are: [ C G ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: C
+
+The degree is: 1
+Adjacents are: [ H ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: D
+
+The degree is: 0
+Adjacents are: [ Empty ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: E
+
+The degree is: 0
+Adjacents are: [ Empty ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: F
+
+The degree is: 2
+Adjacents are: [ I E ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: G
+
+The degree is: 0
+Adjacents are: [ Empty ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: H
+
+The degree is: 2
+Adjacents are: [ G I ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: I
+
+The degree is: 3
+Adjacents are: [ A G E ]
+
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 1
+Enter a Vertex: Z
+
+ERROR: No vertex Z found!
+ERROR: No vertex Z found!
+Enter one of the following: 
+(0) to Quit.
+(1) Look at another Vertex. 
+Option: 0
+bash-4.2$ exit
+exit
+
+Script done on Fri 08 Nov 2019 05:20:49 PM PST

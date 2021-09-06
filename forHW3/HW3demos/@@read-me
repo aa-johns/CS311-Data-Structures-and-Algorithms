@@ -1,0 +1,13 @@
+
+Try
+  compiling and running each with a linked list that does
+  not have copy constructor and overloading yet. 
+  (rlist.o is just like llist.cpp but you cannot see it)
+
+  See what happens and record the results on the HW sheet.
+
+  g++ equalstest.cpp rlist.o
+  g++ getstest.cpp rlist.o
+  g++ copyconsttest.cpp rlist.o
+
+

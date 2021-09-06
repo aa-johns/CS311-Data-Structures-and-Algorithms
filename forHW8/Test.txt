@@ -1,0 +1,99 @@
+Script started on Sat 23 Nov 2019 06:03:10 PM PST
+[?1034hbash-4.2$ g++ *.cpp
+bash-4.2$ ./a.out
+Enter a name and account number (0-999)
+Client #1 Name: a
+a's account number: 1
+Client #2 Name: b
+b's account number: 2
+Client #3 Name: c
+c's account number: 3
+Client #4 Name: d
+d's account number: 4
+Client #5 Name: e
+e's account number: 5
+Client #6 Name: f
+f's account number: 6
+Client #7 Name: g
+g's account number: 7
+Client #8 Name: h
+h's account number: 8
+Client #9 Name: i
+i's account number: 9
+Client #10 Name: j
+j's account number: 10
+Client #11 Name: k
+k's account number: 11
+Client #12 Name: l
+l's account number: 12
+Client #13 Name: john
+john's account number: 200
+Client #14 Name: jeremy
+jeremy's account number: 237
+Client #15 Name: steve
+steve's account number: 201
+Client #16 Name: nancy
+nancy's account number: 238
+Client #17 Name: rika
+rika's account number: 100
+Client #18 Name: mary
+mary's account number: 101
+Client #19 Name: m
+m's account number: 13
+Client #20 Name: n
+n's account number: 14
+
+0:[ Empty ]
+1:[ 1+a ]
+2:[ 2+b ]
+3:[ 3+c ]
+4:[ 4+d ]
+5:[ 5+e ]
+6:[ 6+f ]
+7:[ 7+g ]
+8:[ 8+h ]
+9:[ 9+i ]
+10:[ 10+j ]
+11:[ 11+k ]
+12:[ 12+l ]
+13:[ 13+m ]
+14:[ 14+n ]
+15:[ 200+john 237+jeremy ]
+16:[ 201+steve 238+nancy ]
+17:[ Empty ]
+18:[ Empty ]
+19:[ Empty ]
+20:[ Empty ]
+21:[ Empty ]
+22:[ Empty ]
+23:[ Empty ]
+24:[ Empty ]
+25:[ Empty ]
+26:[ 100+rika ]
+27:[ 101+mary ]
+28:[ Empty ]
+29:[ Empty ]
+30:[ Empty ]
+31:[ Empty ]
+32:[ Empty ]
+33:[ Empty ]
+34:[ Empty ]
+35:[ Empty ]
+36:[ Empty ]
+
+
+To exit, enter -1
+
+Look for? 200
+Found 200: 200+
+Look for? 238
+Found 238: 238+
+Look for? 99
+99 not found.
+Look for? 30
+30 not found.
+Look for? -1
+bash-4.2$ exit
+exit
+
+Script done on Sat 23 Nov 2019 06:05:29 PM PST

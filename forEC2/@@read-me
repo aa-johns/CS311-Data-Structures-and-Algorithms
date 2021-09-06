@@ -1,0 +1,15 @@
+EC2
+
+These files must be used for extra credit graph algorithm programs.
+- copy the list files from Hash forHW8/ 
+- complete elem.cpp
+- complete dgraph2.cpp
+- test using my clients
+
+Input file are utable.txt and dtable.txt
+  utable.txt == undirected graph for MST
+  dtable.txt == directed graph for Shortest
+
+Try testing with other input files, too.
+
+--- Note that HW7's EC is part of EC2 ------

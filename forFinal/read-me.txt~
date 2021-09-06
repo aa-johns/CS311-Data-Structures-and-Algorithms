@@ -1,0 +1,23 @@
+Name: Aaron Johnson
+Class: CS311 - Professor Yoshii
+Title of Program: Game Search!
+
+Description: I am a game distributor and I own a unique game library that sells a select number of games. I have a website that clients can use to search for games. If the game exists, information about the game will be displayed implying that it will be available in my library. If not, a prompt will show allowing an option to continue searching for another or not. 
+
+Object used: Video Game
+Parts in the object: 
+      - Name
+      - Publisher
+      - Platform (console the game can be played on)
+      - Release Date
+
+NEW FUNCTIONS:
+// ----- elem.* -----
+Added operator< and operator> to allow further comparision between objects
+
+// ----- binstree.* -----
+elem_t find(string);
+// Goes through BST to find a match, if found, call PREorderSearch2
+
+elem_t PREorderSearch2(elem_t);
+// Same as original function but instead returns an object rather than bool

@@ -1,0 +1,36 @@
+Script started on Thu 12 Dec 2019 08:02:31 PM PST
+[?1034hbash-4.2$ g++ elem.cpp binstree.cpp finalClient.cpp
+bash-4.2$ ./a.out
+
+Welcome to the Game Search!
+
+Enter a file name: input.txt
+Number of games currently available at our store: 13
+
+Enter a Game title that you wish to search for!
+(Ex: SuperMarioBros, CallOfDuty, Minecraft, etc...)
+If the game is available we will display it for you.
+To exit, enter -1 
+
+Look for? SuperMarioBros
+
+"SuperMarioBros" was not found in our library.
+
+Continue Searching? (Enter any key): yes
+Look for? CallOfDuty
+
+"CallOfDuty" was not found in our library.
+
+Continue Searching? (Enter any key): yes
+Look for? Minecraft
+
+"Minecraft" was not found in our library.
+
+Continue Searching? (Enter any key): -1
+
+THANK YOU FOR USING GAME SEARCH!!!
+
+bash-4.2$ exit
+exit
+
+Script done on Thu 12 Dec 2019 08:04:55 PM PST

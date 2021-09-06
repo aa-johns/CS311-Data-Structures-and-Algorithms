@@ -1,0 +1,133 @@
+Script started on Sat 12 Oct 2019 10:37:43 PM PDT
+[?1034hbash-4.2$ logo[1Pclea/cs/recordhw Test.txt[C[C[C[C[C[C[C[C[C[Cclear[/cs/recordHW Test.txt[C[C[C[C[C[C[C[C[C[Clsclea./a.oug++ HW3P1client.cpp llist.cpp
+bash-4.2$ ./a.out
+
+MENU: These are your options: 
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>1
+CASE 1: Basic --------------- 
+... in llist constructor...
+Step 1
+It is empty
+Step 2
+[ Empty ]
+Step 3 adding 1 2 3 4
+Step 4
+[ 1 2 3 4 ]
+Step 5
+Removed: 1
+Removed: 2
+Step 6
+[ 3 4 ]
+Step 7
+It is not empty
+Step 8 deleteRear twice
+Removed: 4
+Removed: 3
+Step 9
+It is empty
+.... in llist destructor...
+
+MENU: These are your options: 
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>2
+Case 2: Insert and Delete ------------
+... in llist constructor...
+Step 1 addFront 9 8 6 5
+Step 2
+[ 5 6 8 9 ]
+Step 3 insert first 4
+Step 4 insert 4th 7
+Step 5 insert 7th 10
+[ 4 5 6 7 8 9 10 ]
+Step 6 insert 9th
+ERROR: Out of Range!
+Step7 insert 0th
+ERROR: Out of Range!
+Step 8
+[ 4 5 6 7 8 9 10 ]
+Step 9 delete 1st
+removed 4
+Step 10 delete 6th
+Removed: 10
+Step 11 delete 3rd
+Removed: 7
+[ 5 6 8 9 ]
+Step 12 delete 5th
+ERROR: Out of Range!
+Step 13 delete 0th
+ERROR: Out of Range!
+Step 14
+[ 5 6 8 9 ]
+Step 15 delete all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 16
+[ Empty ]
+Step 17 insert 0th
+ERROR: Out of Range!
+Step 18 deleteFront
+ERROR: Underflow!
+Step 19 delete 2nd
+ERROR: Out of Range!
+Step 20 deleteRear
+ERROR: Underflow!
+.... in llist destructor...
+
+MENU: These are your options: 
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>3
+Case 3: Copy Constructor and = -------
+... in llist constructor...
+... in llist constructor...
+Step1
+L1: [ 1 2 3 4 5 ]
+Step2
+in copy test
+[ 1 2 3 4 5 6 ]
+finished
+.... in llist destructor...
+-- After copytest --- 
+Step3
+L1: [ 1 2 3 4 5 ]
+-- Testing operator overloading ---
+Step 4 Gets
+Step 5
+L1: [ 1 2 3 4 5 ]
+Step 6
+Step 7
+L2: [ 7 8 9 10 ]
+Step 8 Gets
+Step 9
+L2: [ 1 2 3 4 5 ]
+Step 10
+Step 11
+L1 : [ 1 2 3 4 ]
+Step 12
+L1: [ 1 2 3 4 ]
+Step 13
+L2: [ 1 2 3 4 5 ]
+.... in llist destructor...
+.... in llist destructor...
+
+MENU: These are your options: 
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+bash-4.2$ exit
+exit
+
+Script done on Sat 12 Oct 2019 10:38:16 PM PDT

@@ -1,0 +1,48 @@
+Script started on Fri 20 Sep 2019 07:35:28 PM PDT
+[?1034hbash-4.2$ g++ binsearch.cpp
+bash-4.2$ ./a.out
+What do you want to look for? 1
+comparing against the element in slot 4
+comparing against the element in slot 1
+comparing against the element in slot 0
+Found 1 in position 1
+bash-4.2$ ./a.out
+What do you want to look for? 19
+comparing against the element in slot 4
+comparing against the element in slot 7
+comparing against the element in slot 8
+comparing against the element in slot 9
+Found 19 in position 10
+bash-4.2$ ./a.out
+What do you want to look for? 5
+comparing against the element in slot 4
+comparing against the element in slot 1
+comparing against the element in slot 2
+Found 5 in position 3
+bash-4.2$ ./a.out
+What do you want to look for? 17
+comparing against the element in slot 4
+comparing against the element in slot 7
+comparing against the element in slot 8
+Found 17 in position 9
+bash-4.2$ ./a.out
+What do you want to look for? 21
+comparing against the element in slot 4
+comparing against the element in slot 7
+comparing against the element in slot 8
+Element not found
+bash-4.2$ ./a.out
+What do you want to look for? 0
+comparing against the element in slot 4
+comparing against the element in slot 1
+Element not found
+bash-4.2$ ./a.out
+What do you want to look for? 6
+comparing against the element in slot 4
+comparing against the element in slot 1
+comparing against the element in slot 2
+Element not found
+bash-4.2$ exit
+exit
+
+Script done on Fri 20 Sep 2019 07:36:33 PM PDT
